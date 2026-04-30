@@ -1,3 +1,6 @@
+中文: https://github.com/CharlesGool/Clash_Rules/blob/main/Readme_CN.md
+English Version: 
+
 ### **Advanced Custom Clash Ruleset: Feature Overview**
 
 This ruleset is engineered for maximum privacy, precise traffic dispatching, and optimal network performance. It utilizes a modular architecture to decouple nodes from rules, ensuring a leak-proof and highly customizable proxy environment.
