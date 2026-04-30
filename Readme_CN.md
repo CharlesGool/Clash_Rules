@@ -1,3 +1,7 @@
+中文: https://github.com/CharlesGool/Clash_Rules/blob/main/Readme_CN.md
+
+English Version: https://github.com/CharlesGool/Clash_Rules/blob/main/README.md
+
 ### **Clash 高级自定义分流规则：特性指南 (V181 Final)**
 
 本规则集专为追求极致隐私控制、精准流量调度和自动化网络体验的用户设计。通过模块化架构实现“节点与规则解耦”，确保在复杂的网络环境下依然保持高性能与高可靠性。
