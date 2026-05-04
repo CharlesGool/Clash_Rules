@@ -2,6 +2,8 @@
 
 本Clash分流规则包括两个版本,一个是完整版(不带后缀的版本),一个是Lite版本. 完整版本主要为x64/高性能设备设计,需要大内存才能跑起来(我这里测试4G内存的设备没有问题,实测512M内存+512M Zram的设备启动时会爆内存,请使用更大内存的设备或者开启更大的Zram),Lite版设计为低内存设备,可以快速启动,代价是更少的可配置的分流规则.
 
+**主要特性：交易平台直连/去广告/反追踪/多机场/负载均衡/纯净,廉价网络分离/多规则组支持一键断网/支持自建服务器/一键回国等规则**
+
 完整版的分流特性如下:
 
 1. 防DNS泄露(需要配合我的项目中的[Openclash配置文件](https://github.com/CharlesGool/Clash_Rules/blob/main/openclash_config_V181_final.txt))
@@ -95,4 +97,3 @@
 3. 粘贴在proxy-groups的最后面即可,记得保持正确换行即可.
 
 4. 如果你使用的是Openwrt和Openclash,可以下载[Openclash配置文件](https://github.com/CharlesGool/Clash_Rules/blob/main/openclash_config_V181_final.txt) 替换到Openwrt的`/etc/config/openclash`,可以有效防止DNS泄露
-
