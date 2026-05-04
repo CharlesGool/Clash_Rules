@@ -5,7 +5,7 @@
 完整版的分流特性如下:
 
 1. 防DNS泄露(需要配合我的项目中的[Openclash配置文件](https://github.com/CharlesGool/Clash_Rules/blob/main/openclash_config_V181_final.txt))
-2. 私有域名绕过,走直连(例如TPlink路由器的http://tplogin.cn/,数据来自GEOSITE)
+2. 私有域名绕过,走直连(例如TPlink路由器的tplogin.cn,数据来自GEOSITE)
 3. 临时规则:
    1. 屏蔽Spotify更新
    2. Speedtest走直连
