@@ -24,7 +24,7 @@
    1. 全球独立不可直连社交平台,包括Telegram/Reddit/Discord/Pinterest/LinkedIn,考虑到Reddit/LinkedIn可能风控严一些,所以有单独的规则组,默认走新加坡纯净节点,其他默认走`全球网络-廉价流量-负载均衡-低延迟`
    2. 全球独立媒体平台,包括Netflix/Disney+/Twitch/Spotify/Anime1, Netflix/Disney+可能对IP要求比较高,所以有单独的规则组,默认走新加坡纯净节点,Anime1走直连
    3. 全球AI/代码平台,分为会风控(包括OpenAI/Claude/Perplexity)和不会风控的(包括GitLab/Docker/Ollama/Nvidia),会风控的有单独的策略组,不会风控的走`全球网络-廉价流量-负载均衡-低延迟`
-   4. 全球可直连大厂,包括:🍎Apple/Microsoft, 其中Apple-AI/GitHub有自己单独的规则组,防止连接不稳定和解锁Apple-AI
+   4. 全球可直连大厂,包括:🍎Apple/Microsoft, 其中Apple-AI/GitHub有自己单独的规则组,防止连接不稳定和解锁Apple-AI,默认屏蔽ios/macOS更新,可以在Dashboard中更改
    5. 全球不可直连大厂,包括:Google/Twitter/Meta/BytedanceGlobal,其中Gemini有自己单独的规则组,防止风控.
    6. 中国独立媒体平台,包括小红书/新浪微博/知乎/豆瓣,有自己单独的规则组,也可以用通过修改节点来修改显示的IP,也可以一键断网
    7. 中国独立社交平台,包括哔哩哔哩,有自己单独的规则组,也可以用通过修改节点来修改显示的IP,也可以一键断网
